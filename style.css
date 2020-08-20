@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#sites{
+    margin-top:12px;
+}
+body {
+    justify-content: center;
+    margin: 80px 0;
+    display: flex;
+    max-height: 1447px;
+}
+img{
+    width:240px;
+    height:240px;
+}
+#personal{
+    max-width: 280px;
+    margin-right: 80px;
+
+}
+.contact{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #011627;
+    margin-bottom: 8px;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    color: #011627;
+    margin-bottom: 12px;
+    margin-top: 40px;
+}
+h3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #011627;
+    margin-top: 64px;
+    margin-bottom: 12px;
+  }
+.education{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+}
+.skills{
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #5c6266;
+    margin-bottom: 40px;
+}
+.resume{
+    margin-bottom: 40px;
+}
+#introduction{
+    max-width: 600px;
+}
+.projNameAndTime{
+    max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+}
+.projTitle{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2972d8;
+    text-decoration: none;
+}
+.projDate{
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #5c6266;
+}
+li {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #011627;
+  }
+  .inlineRef{
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #2972d8;
+    text-decoration: none;
+  }
+
+  @media screen and (max-width: 1000px) {
+    /* For mobile phones: */
+    body {
+      display: block;
+      max-height: 100%;
+      max-width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    #personal {
+      max-width:100%;
+      margin-right: 0;
+    }
+    #experience {
+      max-width: 100%;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    #imgcontainer {
+      text-align: center;
+    }
+  }
